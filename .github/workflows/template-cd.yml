@@ -5,9 +5,9 @@ env:
   AZURE_RESOURCEGROUP_NAME: 'satotestcd01'
 
 jobs:
-  environment: deploy
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment: deploy
     steps:
       # Checkout code
       - uses: actions/checkout@main

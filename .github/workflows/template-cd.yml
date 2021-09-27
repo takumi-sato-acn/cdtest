@@ -24,3 +24,4 @@ jobs:
           resourceGroupName: ${{ env.AZURE_RESOURCEGROUP_NAME }}
           template: ./armTemplateSample.json
           parameters: ./parameters.json
+  environment: deploy

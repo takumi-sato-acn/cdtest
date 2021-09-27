@@ -2,7 +2,7 @@ on: workflow_dispatch
 name: Azure template deploy
 
 env:
-  AZURE_RESOURCEGROUP_NAME: 'cdTestSato01'
+  AZURE_RESOURCEGROUP_NAME: 'satotestcd01'
 
 jobs:
   build-and-deploy:
